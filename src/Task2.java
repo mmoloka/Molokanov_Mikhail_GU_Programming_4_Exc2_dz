@@ -25,6 +25,8 @@ public class Task2 {
         } catch (ArrayIndexOutOfBoundsException | ArithmeticException e) {
             System.out.println("Catching exception: " + e.getMessage());
         }
+        scanner1.close();
+        scanner2.close();
     }
 
 }

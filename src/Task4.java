@@ -10,5 +10,6 @@ public class Task4 {
         System.out.println("Введите строку: ");
         String str = scanner.nextLine();
         if (str.isEmpty() | str.isBlank()) throw new RuntimeException("Пустые строки вводить нельзя!");
+        scanner.close();
     }
 }
